@@ -17,11 +17,51 @@ body {
 }
 .right-top{
 width: 100%;
-height: 100px;
+height: 50vh;
 background-color: green;
+text-align: center;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
+
 .right-bottom{
 width: 100%;
-height: 100px;
 background-color: yellow;
+height: 50vh;
+padding: 10px;
+}
+
+.right-top img {
+  width: 200px;
+  height: 200px;
+}
+
+#cardDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: teal;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 18%;
+  text-align: center;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.history button {
+  margin: 5px;
+  background: purple;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.4rem;
 }
