@@ -6,61 +6,63 @@ body {
 .left {
   width: 25%;
   height: 100vh;
-  background-color: red;
+  background-color: white;
 }
 
 .right {
     width: 75%;
     height: 100vh;
-    background-color: blue;
+    background-color: white;
     padding: 10px;
 }
+/* styles the right top div */
 .right-top{
 width: 100%;
 height: 50vh;
-background-color: green;
+background-color: white;
 text-align: center;
 display: flex;
 justify-content: space-around;
 align-items: center;
+border: 2px solid black;
 }
-
+/* styles the bottom right div with the cards */
 .right-bottom{
 width: 100%;
-background-color: yellow;
+background-color: white;
 height: 50vh;
 padding: 10px;
 }
-
+/* styles the right top div image, so you can see it more */
 .right-top img {
   width: 200px;
   height: 200px;
 }
-
+/* ID style card div, so that it can line up neatly */
 #cardDiv {
   display: flex;
   justify-content: space-between;
 }
-
+/* styling the card divs to look as close as possible of the mock up */
 .card {
-  background: teal;
+  background: rgb(80, 80, 158);
   border: 2px solid black;
   border-radius: 8px;
   width: 18%;
   text-align: center;
 }
-
+/* search history buttons, properly displayed */
 .history {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 10%;
 }
-
+/* search history button to look as close as the mock up as possible */
 .history button {
   margin: 5px;
-  background: purple;
-  color: white;
+  background: lightgray;
+  color: black;
   padding: 10px;
   border-radius: 8px;
   font-size: 1.4rem;
